@@ -7,7 +7,7 @@ from threading import Thread
 from typing import Optional
 
 import rebootpy
-from rebootpy import Client, DeviceAuth, ExchangeCode, Presence
+from rebootpy import Client, DeviceAuth, ExchangeCodeAuth, Presence
 
 CONFIG_DIR = Path(os.environ.get("APPDATA", ".")) / "EpicChat"
 CONFIG_DIR.mkdir(parents=True, exist_ok=True)
