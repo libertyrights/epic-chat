@@ -1264,10 +1264,14 @@ class EpicChatApp(QMainWindow):
             ver = r.stdout.strip() or r.stderr.strip()
         except Exception:
             ver = "unknown"
-        QMessageBox.about(self, "About OpenCode AI",
-            f"<b>OpenCode AI</b><br><br>Version: {ver}<br>Model: big-pickle<br><br>"
-            "A gamer-friendly AI assistant integrated right into your chat app. "
-            "Powered by opencode \u2014 the AI CLI for gamers who code.")
+        QMessageBox.about(self, "About EpicChat",
+            f"<b>EpicChat</b><br><br>"
+            "<b>Brought to you by Liberty Rights Association</b><br>"
+            "<i>Protecting your rights and your wallet!</i><br><br>"
+            "Author: marktherusty<br><br>"
+            "Built with OpenCode AI (big-pickle) &middot; Free to use and modify<br>"
+            "with credit given to marktherusty and OpenCode.<br><br>"
+            f"OpenCode version: {ver}")
 
     # ==================== SETTINGS / SOUND ====================
 

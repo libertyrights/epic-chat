@@ -69,6 +69,16 @@ Send `{S filename.wav}` in chat to trigger sounds on the recipient's client:
 - `{S woosh.wav}` — Comedy woosh
 - `{S random.wav}` — Random pings
 
+## Credits
+
+**Brought to you by Liberty Rights Association — Protecting your rights and your wallet!**
+
+**Author:** marktherusty
+
+Free to use and modify with credit given to marktherusty and OpenCode.
+
+Built with [OpenCode](https://opencode.ai) — the AI coding assistant that never charges API fees.
+
 ## License
 
 MIT
